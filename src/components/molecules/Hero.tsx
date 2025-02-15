@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
       <div className="flex justify-center gap-x-12">
         <img src="/icon1.svg" alt="" className="mb-[5rem]" />
-        <img src="/public/hearo image.svg" alt="" />
+        <img src="/hearo image.svg" alt="" />
         <img src="/icon2.svg" alt="" />
       </div>
     </section>
