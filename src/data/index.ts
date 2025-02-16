@@ -65,3 +65,18 @@ export const Visions = [
     desc: "Our work transcends traditional marketing campaigns; we strive to create transformative experiences that engage, inspire, and connect with audiences on a profound level.",
   },
 ];
+
+export const TestimonialData = [
+  {
+    image: "/testimoniesImage.svg",
+    name: "Ama Ampomah",
+    desc: " Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper  ",
+    role: "CEO & Founder Inc ",
+  },
+  {
+    image: "/testimoniesImage.svg",
+    name: "Ama Ampomah",
+    desc: " Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper  ",
+    role: "CEO & Founder Inc ",
+  },
+];

@@ -7,6 +7,7 @@ import AboutUs from "../molecules/AboutUs";
 
 import OurNation from "../molecules/OurNation";
 import OurVision from "../molecules/OurVision";
+import Testimonial from "../molecules/Testimonial";
 
 const AppRoute = () => {
   return (
@@ -19,6 +20,7 @@ const AppRoute = () => {
         <AboutUs />
         <OurNation />
         <OurVision />
+        <Testimonial />
       </main>
     </Router>
   );
