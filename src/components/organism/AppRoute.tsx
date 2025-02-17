@@ -8,6 +8,7 @@ import AboutUs from "../molecules/AboutUs";
 import OurNation from "../molecules/OurNation";
 import OurVision from "../molecules/OurVision";
 import Testimonial from "../molecules/Testimonial";
+import Footer from "../molecules/Footer";
 
 const AppRoute = () => {
   return (
@@ -22,6 +23,7 @@ const AppRoute = () => {
         <OurVision />
         <Testimonial />
       </main>
+      <Footer />
     </Router>
   );
 };

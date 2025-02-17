@@ -9,7 +9,7 @@ interface TestimonialProps {
 
 const TestimonialCard = ({ name, desc, role, image }: TestimonialProps) => {
   return (
-    <div className="bg-white drop-shadow-[0_20px_20px_#00000012] px-[7.8rem] py-[2.5rem] relative rounded-tl-[7rem] rounded-br-[7rem] rounded-tr-[2rem] rounded-bl-[2rem]">
+    <div className="bg-white drop-shadow-[0_20px_20px_#00000012] px-[7.8rem] py-[2.5rem] relative rounded-tl-[7rem] rounded-br-[7rem] rounded-tr-[2rem] rounded-bl-[2rem] min-w-[40rem] ">
       {/*  */}
       <img
         src={image}
@@ -27,17 +27,20 @@ const TestimonialCard = ({ name, desc, role, image }: TestimonialProps) => {
 
 const Testimonial = () => {
   return (
-    <div className="mb-[3.9rem]">
+    <div className="">
       <p className="text-center text-[#1A3C35] font-semibold text-[2.3rem] mb-[0.6rem]">
         Testimonies
       </p>
       <p className="text-center text-[1.3rem] mb-[5rem]">
         What our happy customers are saying
       </p>
-      <div className="flex justify-center gap-x-[5rem] ">
+      <div className="flex justify-center gap-x-[5rem] ml-[5rem] overflow-x-auto mb-[3.9rem]">
         {TestimonialData.map((testimonial, index) => (
           <TestimonialCard key={index} {...testimonial} />
         ))}
+      </div>
+      <div className="flex justify-center mb-[6rem]">
+        <img src="/Dot.svg" alt="" />
       </div>
     </div>
   );
