@@ -19,7 +19,7 @@ const Hero = () => {
           />
         </span>
       </p>
-      <p className="text-[#71717A] text-center w-[26.8rem] m-auto">
+      <p className="text-[#71717A] text-center md:w-[26.8rem] m-auto">
         Custom-tailored marketing solutions designed to elevate your brand and
         drive results.
       </p>

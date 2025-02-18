@@ -2,8 +2,8 @@ import SubFooter from "../atoms/SubFooter";
 
 const Footer = () => {
   return (
-    <div className="bg-[#235047]">
-      <div className="flex items-center gap-x-[6rem] justify-center pt-[2.6rem]">
+    <div className="bg-[#235047] px-5">
+      <div className="flex flex-col md:flex-row gap-y-[2.6rem] md:items-center gap-x-[6rem]  justify-center pt-[2.6rem]">
         <div>
           <img src="/logo2.svg" alt="33" />
           <p className="text-white">
@@ -31,7 +31,7 @@ const Footer = () => {
           <p className="text-white">9 AM - 5 PM , Monday - Friday</p>
         </div>
       </div>
-      <div className="flex justify-center items-center mt-[3.3rem] gap-x-[5rem] pb-[2.6rem] border-b-1 border-[#D2D2D2]">
+      <div className="flex flex-col md:flex-row md:justify-center md:items-center mt-[3.3rem] gap-x-[5rem] pb-[2.6rem] border-b-1 border-[#D2D2D2] gap-y-[2rem] ">
         <div className="">
           <p className="text-white font-normal">Follow us</p>
           <div className="flex">
@@ -41,12 +41,12 @@ const Footer = () => {
             <img src="/linkdinIcon.svg" alt="" />
           </div>
         </div>
-        <img src="/Line 5.svg" alt="" />
+        <img src="/Line 5.svg" alt="" className="hidden md:block" />
         <div className="flex items-center gap-x-[1.7rem]">
           <img src="/PhoneIcon.svg" alt="" />
           <p className="text-[1.3rem] text-white font-light">+94 4444 5555 6</p>
         </div>
-        <img src="/Line 5.svg" alt="" />
+        <img src="/Line 5.svg" alt="" className="hidden md:block" />
 
         <div className="flex items-start gap-x-[1.3rem]">
           <img src="/Location.svg" alt="" />
