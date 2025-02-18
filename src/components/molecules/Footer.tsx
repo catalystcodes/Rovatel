@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center text-[0.8rem] text-white pt-[1.8rem] pb-[2.3rem]">
-        Copyright ® 2025 Shams All rights Reserved
+        Copyright © 2025 Shams All rights Reserved
       </p>
     </div>
   );

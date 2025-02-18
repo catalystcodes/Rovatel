@@ -14,15 +14,17 @@ const AppRoute = () => {
   return (
     <Router>
       <Header />
-      <main>
-        <Hero />
-        <TrustedBySec />
-        <OurService />
-        <AboutUs />
-        <OurNation />
-        <OurVision />
-        <Testimonial />
-      </main>
+      <div className="px-[2rem] md:px-0">
+        <main>
+          <Hero />
+          <TrustedBySec />
+          <OurService />
+          <AboutUs />
+          <OurNation />
+          <OurVision />
+          <Testimonial />
+        </main>
+      </div>
       <Footer />
     </Router>
   );

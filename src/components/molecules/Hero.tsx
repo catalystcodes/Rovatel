@@ -8,11 +8,15 @@ const Hero = () => {
       </div>
       <img src="/bg1.svg" alt="" className="absolute top-0 left-0" />
       <img src="/bg3.svg" alt="" className="absolute top-0 right-0" />
-      <p className="text-[3.1rem] text-center w-[50.2rem] m-auto font-bold text-[#142D28]">
+      <p className="md:text-[3.1rem] text-center md:w-[50.2rem] md:m-auto font-bold text-[#142D28] mt-[2rem] mb-[1rem]">
         Transforming Businesses with Innovative{" "}
         <span className="relative">
           Marketing{" "}
-          <img src="/bg2.svg" alt="" className="absolute top-0 right-0" />
+          <img
+            src="/bg2.svg"
+            alt=""
+            className="absolute top-0 right-0 hidden md:block"
+          />
         </span>
       </p>
       <p className="text-[#71717A] text-center w-[26.8rem] m-auto">
@@ -26,13 +30,13 @@ const Hero = () => {
         <img
           src="/box1.svg"
           alt=""
-          className="absolute top-0 right-0 mr-[6.3rem]"
+          className="absolute top-0 right-0 mr-[6.3rem] hidden md:block"
         />
       </div>
       <div className="flex justify-center gap-x-12">
-        <img src="/icon1.svg" alt="" className="mb-[5rem]" />
+        <img src="/icon1.svg" alt="" className="mb-[5rem] hidden md:block" />
         <img src="/hearo image.svg" alt="" />
-        <img src="/icon2.svg" alt="" />
+        <img src="/icon2.svg" alt="" className="hidden md:block" />
       </div>
     </section>
   );

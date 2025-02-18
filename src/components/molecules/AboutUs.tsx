@@ -1,12 +1,12 @@
 const AboutUs = () => {
   return (
-    <div className="flex items-center justify-center gap-x-[5.1rem] mb-[6rem]">
+    <div className="flex flex-col-reverse md:flex-row items-center md:justify-center md:gap-x-[5.1rem] md:mb-[6rem] ">
       <img src="/pana.svg" alt="" />
       <div>
         <p className="text-[#1A3C35] font-semibold text-[2.3rem] mb-[0.6rem]">
           About Us
         </p>
-        <p className="w-[36.7rem] font-normal text-[1.3rem]">
+        <p className="md:w-[36.7rem] font-normal md:text-[1.3rem]">
           At Rovatel Media, we are revolutionizing the media landscape,
           transcending traditional boundaries to ignite transformation and
           propel businesses to unparalleled heights in today's dynamic

@@ -14,8 +14,8 @@ const TrustedCard: React.FC<TrustedCardProps> = ({ logo }) => {
 
 const TrustedBySec: React.FC = () => {
   return (
-    <section className="mb-[5.6rem]">
-      <p className="text-[##1A3C35] text-center font-semibold text-[1.4rem] mt-[5.8rem]">
+    <section className="md:mb-[5.6rem]">
+      <p className="text-[##1A3C35] text-center font-semibold text-[1.4rem] md:mt-[5.8rem] mt-[3rem]">
         Trusted By
       </p>
       <div className="flex  justify-center gap-x-[8.5rem] items-center py-[1.5rem]">

@@ -9,14 +9,14 @@ interface TestimonialProps {
 
 const TestimonialCard = ({ name, desc, role, image }: TestimonialProps) => {
   return (
-    <div className="bg-white drop-shadow-[0_20px_20px_#00000012] px-[7.8rem] py-[2.5rem] relative rounded-tl-[7rem] rounded-br-[7rem] rounded-tr-[2rem] rounded-bl-[2rem] min-w-[40rem] ">
+    <div className="bg-white drop-shadow-[0_20px_20px_#00000012] md:px-[7.8rem] md:py-[2.5rem] relative rounded-tl-[7rem] rounded-br-[7rem] rounded-tr-[2rem] rounded-bl-[2rem] md:min-w-[40rem] px-[2.8rem] py-[1rem] ">
       {/*  */}
       <img
         src={image}
         alt=""
-        className="rounded-full absolute -top-14 left-[16rem]"
+        className="rounded-full absolute md:-top-14 md:left-[16rem] md:w-[6.8rem] md:h-[6.8rem] w-[5.8rem] h-[5.8rem] -top-9 left-[8rem]"
       />
-      <p className="text-[#5C6574] text-center w-[24rem] mt-[4rem] mb-[1rem]">
+      <p className="text-[#5C6574] text-[0.8rem] text-center md:w-[24rem] mt-[4rem] mb-[1rem]">
         {desc}
       </p>
       <p className="font-bold text-center mb-[0.4rem]">{name} </p>
@@ -34,13 +34,13 @@ const Testimonial = () => {
       <p className="text-center text-[1.3rem] mb-[5rem]">
         What our happy customers are saying
       </p>
-      <div className="flex justify-center gap-x-[5rem] ml-[5rem] overflow-x-auto mb-[3.9rem]">
+      <div className="flex flex-col md:flex-row md:justify-center md:gap-x-[5rem] md:ml-[5rem] md:overflow-x-auto mb-[3.9rem] gap-y-[6rem]">
         {TestimonialData.map((testimonial, index) => (
           <TestimonialCard key={index} {...testimonial} />
         ))}
       </div>
       <div className="flex justify-center mb-[6rem]">
-        <img src="/Dot.svg" alt="" />
+        <img src="/Dot.svg" alt="" className="hidden md:block" />
       </div>
     </div>
   );
