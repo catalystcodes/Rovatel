@@ -2,7 +2,7 @@ import SubFooter from "../atoms/SubFooter";
 
 const Footer = () => {
   return (
-    <div className="bg-[#235047] px-5">
+    <div className="bg-[#235047] px-5 md:px-0">
       <div className="flex flex-col md:flex-row gap-y-[2.6rem] md:items-center gap-x-[6rem]  justify-center pt-[2.6rem]">
         <div>
           <img src="/logo2.svg" alt="33" />
