@@ -50,7 +50,7 @@ const Testimonial = () => {
       <p className="text-center text-[1.3rem] mb-[5rem]">
         What our happy customers are saying
       </p>
-      <div className="flex flex-col md:flex-row md:justify-center md:gap-x-[5rem] md:ml-[5rem] md:overflow-x-auto mb-[3.9rem] gap-y-[6rem] ">
+      <div className="flex flex-col md:flex-row  md:gap-x-[5rem] md:ml-[5rem] md:overflow-x-auto py-14 mb-[3.9rem] gap-y-[6rem] md:px-3 ">
         {TestimonialData.map((testimonial, index) => (
           <TestimonialCard key={index} {...testimonial} />
         ))}

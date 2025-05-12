@@ -1,5 +1,4 @@
 import Hero from "../molecules/Hero";
-import Header from "../molecules/Header";
 import { BrowserRouter as Router } from "react-router-dom";
 import TrustedBySec from "../atoms/TrustedBySec";
 import OurService from "../molecules/OurService";
@@ -9,11 +8,12 @@ import OurNation from "../molecules/OurNation";
 import OurVision from "../molecules/OurVision";
 import Testimonial from "../molecules/Testimonial";
 import Footer from "../molecules/Footer";
+import Navbar from "../molecules/Navbar";
 
 const AppRoute = () => {
   return (
     <Router>
-      <Header />
+      <Navbar />
       <div className="px-[2rem] md:px-0">
         <main>
           <Hero />
@@ -25,7 +25,7 @@ const AppRoute = () => {
           <Testimonial />
         </main>
       </div>
-      <Footer id="footer" />
+      <Footer />
     </Router>
   );
 };

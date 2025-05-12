@@ -1,15 +1,17 @@
 import { useState } from "react";
 
-const Header = () => {
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="relative ">
+    <nav className="relative">
       <div className=" flex md:justify-center items-center border-2 border-[#52BDAA] gap-x-[6.5rem] mt-[4.4rem] mb-[2.8rem] rounded-[3.2rem] m-auto  md:w-[62.3rem] bg-white md:drop-shadow-[0_30px_35px_#0C0C0D66]">
-        <img src="/bg1.svg" alt="" className="absolute -top-20 z-20 -left-40" />
+        <div className="absolute w-screen -top-20 z-20">
+          <img src="/bg1.svg" alt="" className="" />
+        </div>
         <div className="py-[1.7rem] ml-10 z-30 ">
           <a href="/">
             <img src="/logo.svg" alt="" />
@@ -58,8 +60,8 @@ const Header = () => {
           onClick={handleMenuToggle}
         />
       </div>
-    </header>
+    </nav>
   );
 };
 
-export default Header;
+export default Navbar;
