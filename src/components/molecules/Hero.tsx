@@ -6,8 +6,7 @@ const Hero = () => {
       <div className="flex justify-center items-center relative">
         <ButtonView />
       </div>
-      <img src="/bg1.svg" alt="" className="absolute top-0 left-0" />
-      <img src="/bg3.svg" alt="" className="absolute top-0 right-0" />
+      <img src="/bg3.svg" alt="" className="absolute top-0 right-0 -z-40" />
       <p className="md:text-[3.1rem] text-center md:w-[50.2rem] md:m-auto font-bold text-[#142D28] mt-[2rem] mb-[1rem]">
         Transforming Businesses with Innovative{" "}
         <span className="relative">

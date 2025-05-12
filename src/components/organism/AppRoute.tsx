@@ -25,7 +25,7 @@ const AppRoute = () => {
           <Testimonial />
         </main>
       </div>
-      <Footer />
+      <Footer id="footer" />
     </Router>
   );
 };

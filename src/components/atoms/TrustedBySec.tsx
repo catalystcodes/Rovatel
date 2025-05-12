@@ -12,7 +12,7 @@ const TrustedCard: React.FC<TrustedCardProps> = ({ logo }) => {
   );
 };
 
-const TrustedBySec: React.FC = () => {
+const TrustedBySec = () => {
   return (
     <section className="md:mb-[5.6rem]">
       <p className="text-[##1A3C35] text-center font-semibold text-[1.4rem] md:mt-[5.8rem] mt-[3rem]">

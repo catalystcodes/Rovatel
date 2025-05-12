@@ -1,6 +1,9 @@
 const OurNation = () => {
   return (
-    <div className="mt-[6rem] md:mt-0 flex flex-col md:flex-row md:items-center md:justify-center gap-x-[5.1rem] mb-[6rem] md:bg-[#F5F7FA]">
+    <section
+      id="product"
+      className="mt-[6rem] md:mt-0 flex flex-col md:flex-row md:items-center md:justify-center gap-x-[5.1rem] mb-[6rem] md:bg-[#F5F7FA]"
+    >
       <div>
         <p className="text-[#1A3C35] font-semibold text-[2.3rem] mb-[0.6rem]">
           Our Nation
@@ -14,7 +17,7 @@ const OurNation = () => {
         </p>
       </div>
       <img src="/OurVision.svg" alt="" />
-    </div>
+    </section>
   );
 };
 

@@ -10,7 +10,10 @@ const VisionCard = ({ desc }: { desc: string }) => {
 
 const OurVision = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row md:items-center md:justify-center md:gap-x-[5.1rem] mb-[6rem] relative gap-y-[2rem] ">
+    <section
+      id="our-vision"
+      className="flex flex-col-reverse md:flex-row md:items-center md:justify-center md:gap-x-[5.1rem] mb-[6rem] relative gap-y-[2rem] "
+    >
       <img src="/OurNation.svg" alt="" />
       <div>
         <p className="text-[#1A3C35] font-semibold text-[2.3rem] mb-[0.6rem]">
@@ -33,7 +36,7 @@ const OurVision = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

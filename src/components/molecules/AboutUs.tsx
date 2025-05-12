@@ -1,6 +1,9 @@
 const AboutUs = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center md:justify-center md:gap-x-[5.1rem] md:mb-[6rem] ">
+    <section
+      id="feature"
+      className="flex flex-col-reverse md:flex-row items-center md:justify-center md:gap-x-[5.1rem] md:mb-[6rem] "
+    >
       <img src="/pana.svg" alt="" />
       <div>
         <p className="text-[#1A3C35] font-semibold text-[2.3rem] mb-[0.6rem]">
@@ -21,7 +24,7 @@ const AboutUs = () => {
           <img src="/arrow-right 1.svg" alt="" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

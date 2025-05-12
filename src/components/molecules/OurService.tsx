@@ -22,7 +22,7 @@ const OurServiceCard = ({ image, desc, header }: OurServiceProps) => {
 
 const OurService = () => {
   return (
-    <div>
+    <section id="service">
       <p className="text-center text-[2.3rem] font-semibold text-[#1A3C35] ">
         Our Services
       </p>
@@ -35,7 +35,7 @@ const OurService = () => {
           <OurServiceCard key={index} {...service} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
